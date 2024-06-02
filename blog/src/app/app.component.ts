@@ -10,4 +10,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'blog';
+  fname = "Sahil";
+  lname = "Yadav";
+  fun(){
+    return "this is function";
+  }
 }
