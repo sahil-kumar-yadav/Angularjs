@@ -70,3 +70,32 @@ yes by using {NVM} - Node version manager
                 - ng g m module-name --> module create karne ky liye
                 - ng g c user-auth/sign-in --> module ky ander component banae ky liye
 - ng build --> project build karne ky liye
+
+# lec - 7 Component
+*** ng generate componet componet-name ***
+> From latest version components are standalone so ve have to import them to use 
+> copy name name from component.ts and add to imports of app.component.ts
+
+- .css vale my css likhte hai
+- .html vale component my html likhte hai without boilerplatecode
+- .spec.ts vale code my testing ka code likhte hai
+- .ts my typescript/javascript ka code 
+
+# lec - 8 Component with inline style and inline template
+
+- use for small component with less css
+
+# lec - 9 Module
+*** ng generate module user-auth ***
+*** ng generate component user-auth/login ***
+
+- module ko register karna padega (app.module.ts)
+- eg: user auth ek pura module hoga uske ander components aayege jese login, signup ,etc
+
+- module ka componets run nahi hote jab tak hum unka use nahi karte hai
+
+- module ko reuse nahi karna hota hai
+
+# lec - 10 make and call functions on button
+- interview question --> string mode true hone ki vajh sy function parameter ka type define karna padega
+
